@@ -1,0 +1,73 @@
+html {background-color:rgb(117, 111, 111);
+    font-size: 1rem;
+
+}
+input {
+    width:10rem;
+    height:2rem;
+    font-size:large;
+    border:none;
+    padding:none;
+}
+
+.container_main{
+    display:flex;
+    justify-content: center;
+}
+
+.login_form_sign{
+    font-size:xx-large;
+    text-align: center;
+}
+
+.login_table{
+    border-collapse:collapse;
+}
+
+.signup_button{
+    background-color: rgb(37, 135, 185);
+    float:left;
+}
+.login_button{
+    background-color: rgb(0, 255, 136);
+    float:right;
+
+}
+
+.button{
+
+    border:none;
+    outline:none;
+    padding:none;
+    margin:none;
+    font-size: large;
+    margin:0;
+    width:5rem;
+    height:2rem;
+    padding:0;
+}
+.button:hover{
+    opacity:75%;
+}
+.button:active{
+    opacity:100%;
+}
+#signup_table{
+    position:absolute;
+    background-color:rgb(57, 157, 200);
+    border-collapse: collapse;
+    display:inline-block;
+
+}
+
+
+@keyframes fadeout {
+    from {opacity: 100%;}
+    to {opacity: 0%;}
+    
+}
+@keyframes fadein {
+    from {opacity: 0%;}
+    to {opacity: 100%;}
+    
+}
